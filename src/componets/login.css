@@ -1,0 +1,63 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    height: 800px;
+    background: #f3e0e2;
+    /* margin-top: 100px; */
+}
+.container{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    /* border-radius: 10px; */
+    /* margin-top: 100px; */
+    /* justify-content: center;
+    align-items: center;
+     */
+
+
+}
+.box-1{
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: white;
+     justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    
+}
+.box-2{
+    /* display: flex;
+     justify-content: center; 
+    align-items: center;  */
+    /* border: 1px solid green; */
+    height: 500px;
+    background-color:#ff4457;
+    color: white;
+}
+.box-2Content{
+  display: flex;
+    width: 80%;
+   justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 30%;
+    /* margin-top: 70px; */
+}
+
+.loginBtn{
+    background-color: #ff4a2b;
+    color:white;
+    width: 50%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
